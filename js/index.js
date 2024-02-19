@@ -35,6 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
   addPopupListeners("PopUpNetwork", "NetworkClose", "NetworkOK");
   addPopupListeners("PopUpCyke", "CykeClose", "CykeOK");
   addPopupListeners("PopUpLilith", "LilithClose", "LilithOK");
+  addPopupListeners("PopUpMess", "MessClose", "MessOK");
+  addPopupListeners("PopUpSinna", "SinnaClose", "SinnaOK");
 });
 
 let date = new Date();
